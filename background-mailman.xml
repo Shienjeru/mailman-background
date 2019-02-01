@@ -27,7 +27,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<grant type="Proficiency" name="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
 			<select type="Language" name="Language (Mailman)" number="2" />
-            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_ADVENTURER_WANDERER" />
+            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER" />
 			<p> Mailmen or post men are commonly known as heroes not in the traditional sense but they have many qualities from honour to pride and everything in between. </p>
             <select name="Personality Trait" type="List">
                 <item id="1">My sense of duty will push me through even the most deadly of situations.</item>
