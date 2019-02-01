@@ -5,10 +5,10 @@
 		<description>Mailman</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
 		<update version="0.0.1" revised="">
-			<file name="background.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dnd-wiki.index" />
+			<file name="background.index" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/backgrounds/background.index" />
 		</update>
 	</info>
 	<files>
-		<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/master/background-mailman.xml" />
+		<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/backgrounds/background-mailman.xml" />
 	</files>
 </index>

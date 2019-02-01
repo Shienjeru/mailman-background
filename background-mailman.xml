@@ -5,7 +5,7 @@
         <description>5e homebrew</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
 		<update version="0.0.1">
-			<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/master/background-mailman.xml" />
+			<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/backgrounds/background-mailman.xml" />
 		</update>
     </info>
     <element name="Mailman" type="Background" source="Background" id="ID_WIKI_BACKGROUND_MAILMAN">
