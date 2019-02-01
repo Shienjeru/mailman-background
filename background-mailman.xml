@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Mailman Background</name>
+        <description>5e homebrew</description>
+		<update version="0.1.2">
+			<file name="background-mailman.xml"/>
+		</update>
+    </info>
+    <element name="Mailman" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_MAILMAN">
+        <description>
+            <p>Through storms and blistering heat, one type of person has persevered and did it with a smile, the mailman. You have traversed mountains, forests, cities and even caves just to deliver some mail. Your title holds the meaning of honor, pride and promise that you will do your duty with a smile, no matter the stakes.</p>
+			<p>
+				<strong>Skill Proficiencies:</strong> Survival and Athletics <br/>
+				<strong>Tool Proficiencies:</strong> Cartograper's Tools <br/>
+				<strong>Languages:</strong> Two languages of your choice <br/>
+				<strong>Equipment:</strong> A set of Cartographer's tools, a post badge, a mailman's uniform, a map of your home city and a coin pouch containing 15gp.<br/>
+            </p>
+            <div element="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER" />
+        </description>
+        <setters>
+            <set name="sourceUrl">https://www.dandwiki.com/wiki/Mailman_(5e_Background)</set>
+        </setters>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" name="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+			<select type="Language" name="Language (Mailman)" number="2" />
+            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_ADVENTURER_WANDERER" />
+			<p> Mailmen or post men are commonly known as heroes not in the traditional sense but they have many qualities from honour to pride and everything in between. </p>
+            <select name="Personality Trait" type="List">
+                <item id="1">My sense of duty will push me through even the most deadly of situations.</item>
+                <item id="2">Any opportunity to show off my speed is a good one!</item>
+                <item id="3">I must handle things carefully otherwise things could go wrong.</item>
+                <item id="4">Failing a promise is a great shame that I fear.</item>
+                <item id="5">Things will happen when they happen. Until then I'm going to take my time.</item>
+                <item id="6">Every accepted delivery is a promise that I will see through!</item>
+            </select>
+            <select name="Ideal" type="List">
+                <item id="1">Exploration. I want to explore and see new things. (Chaotic)</item>
+                <item id="2">Pride. Nothing will stop me from keeping my word! (Lawful)</item>
+                <item id="3">Contest. I want to challenge myself constantly. (Neutral)</item>
+                <item id="4">For the people. To see the smile on people's faces makes me happy. (Good)</item>
+                <item id="5">Breach of security. I wonder whats inside this letter... (Evil)</item>
+                <item id="6">Boredom. Whatever kills my boredom. (Any)</item>
+            </select>
+            <select name="Bond" type="List">
+                <item id="1">My work got me out of a tight spot and I'm eternally grateful for it.</item>
+                <item id="2">Even in the worst situations I've been taught to have a smile.</item>
+                <item id="3">I have a rival that I must beat at all costs.</item>
+                <item id="4">I have one last delivery i need to make...</item>
+                <item id="5">People generally like me because I'm generally friendly.</item>
+                <item id="6">I'm trying to find someone and the best way was to be a Mailman.</item>
+            </select>
+            <select name="Flaw" type="List">
+                <item id="1">I often get distracted and lose focus on whats important.</item>
+                <item id="2">My blind optimism has proven to get on some people's nerves.</item>
+                <item id="3">I'm very goal orientated, only focusing on the goal and rarely on what's between me and it.</item>
+                <item id="4">I'm often late in my delivery, both socially and in work.</item>
+                <item id="5">I am the manifestation of speed, or so I believe.</item>
+                <item id="6">Years of tedious work have made me usually grumpy.</item>
+            </select>
+        </rules>
+    </element>
+    <element name="Everyone's Friend" type="Background Feature" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER">
+        <description>
+            <p>After years of practice and work you have found that city layouts generally share similarities. You can easily find your way around most cities and you are capable of getting information and work from that city's post office, from locations of notable people, to places of intrigue and local happenings. Additionally, you are able to use your position to deliver different types of mail without suspicion.</p>
+        </description>
+    </element>
+</elements>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
