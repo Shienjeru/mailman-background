@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Mailman Background</name>
+        <name>Mailman</name>
         <description>5e homebrew</description>
-		<update version="0.1.2">
-			<file name="background-mailman.xml"/>
+		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<update version="0.0.1">
+			<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/master/background-mailman.xml" />
 		</update>
     </info>
     <element name="Mailman" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_MAILMAN">
