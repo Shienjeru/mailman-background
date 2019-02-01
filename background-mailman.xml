@@ -8,7 +8,7 @@
 			<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/master/background-mailman.xml" />
 		</update>
     </info>
-    <element name="Mailman" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_MAILMAN">
+    <element name="Mailman" type="Background" source="Background" id="ID_WIKI_BACKGROUND_MAILMAN">
         <description>
             <p>Through storms and blistering heat, one type of person has persevered and did it with a smile, the mailman. You have traversed mountains, forests, cities and even caves just to deliver some mail. Your title holds the meaning of honor, pride and promise that you will do your duty with a smile, no matter the stakes.</p>
 			<p>
@@ -63,7 +63,7 @@
             </select>
         </rules>
     </element>
-    <element name="Everyone's Friend" type="Background Feature" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER">
+    <element name="Everyone's Friend" type="Background Feature" source="Background" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER">
         <description>
             <p>After years of practice and work you have found that city layouts generally share similarities. You can easily find your way around most cities and you are capable of getting information and work from that city's post office, from locations of notable people, to places of intrigue and local happenings. Additionally, you are able to use your position to deliver different types of mail without suspicion.</p>
         </description>
