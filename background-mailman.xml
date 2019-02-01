@@ -2,22 +2,24 @@
 <elements>
     <info>
         <name>Mailman</name>
-        <description>5e homebrew</description>
+        <description>Mailman Background</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
 		<update version="0.0.1">
 			<file name="background-mailman.xml" url="https://raw.githubusercontent.com/Shienjeru/mailman-background/backgrounds/background-mailman.xml" />
 		</update>
     </info>
-    <element name="Mailman" type="Background" source="Background" id="ID_WIKI_BACKGROUND_MAILMAN">
+    <element name="Mailman" type="Background" source="Background" id="ID_B_BACKGROUND_MAILMAN">
         <description>
             <p>Through storms and blistering heat, one type of person has persevered and did it with a smile, the mailman. You have traversed mountains, forests, cities and even caves just to deliver some mail. Your title holds the meaning of honor, pride and promise that you will do your duty with a smile, no matter the stakes.</p>
 			<p>
-				<strong>Skill Proficiencies:</strong> Survival and Athletics <br/>
-				<strong>Tool Proficiencies:</strong> Cartograper's Tools <br/>
-				<strong>Languages:</strong> Two languages of your choice <br/>
-				<strong>Equipment:</strong> A set of Cartographer's tools, a post badge, a mailman's uniform, a map of your home city and a coin pouch containing 15gp.<br/>
+				<span class="emphasis">Skill Proficiencies:</span>Survival and Athletics <br/>
+				<span class="emphasis">Tool Proficiencies:</span>Cartograper's Tools <br/>
+				<span class="emphasis">Languages:</span>Two languages of your choice <br/>
+				<span class="emphasis">Equipment:</span>A set of Cartographer's tools, a post badge, a mailman's uniform, a map of your home city and a coin pouch containing 15gp.<br/>
             </p>
-            <div element="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER" />
+            <div element="ID_B_BACKGROUND_FEATURE_MAILMAN_EVERYONES_FRIEND" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p> Mailmen or post men are commonly known as heroes not in the traditional sense but they have many qualities from honour to pride and everything in between. </p>
         </description>
         <setters>
             <set name="sourceUrl">https://www.dandwiki.com/wiki/Mailman_(5e_Background)</set>
@@ -25,11 +27,10 @@
         <rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
-			<grant type="Proficiency" name="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
 			<select type="Language" name="Language (Mailman)" number="2" />
-            <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER" />
-			<p> Mailmen or post men are commonly known as heroes not in the traditional sense but they have many qualities from honour to pride and everything in between. </p>
-            <select name="Personality Trait" type="List">
+            <grant type="Background Feature" id="ID_B_BACKGROUND_FEATURE_MAILMAN_EVERYONES_FRIEND" />
+            <select name="Personality Trait" type="List" number="2">
                 <item id="1">My sense of duty will push me through even the most deadly of situations.</item>
                 <item id="2">Any opportunity to show off my speed is a good one!</item>
                 <item id="3">I must handle things carefully otherwise things could go wrong.</item>
@@ -63,7 +64,7 @@
             </select>
         </rules>
     </element>
-    <element name="Everyone's Friend" type="Background Feature" source="Background" id="ID_WIKI_BACKGROUND_FEATURE_MAILMAN_WANDERER">
+    <element name="Feature: Everyone's Friend" type="Background Feature" source="Background" id="ID_B_BACKGROUND_FEATURE_MAILMAN_EVERYONES_FRIEND">
         <description>
             <p>After years of practice and work you have found that city layouts generally share similarities. You can easily find your way around most cities and you are capable of getting information and work from that city's post office, from locations of notable people, to places of intrigue and local happenings. Additionally, you are able to use your position to deliver different types of mail without suspicion.</p>
         </description>
